@@ -5,7 +5,7 @@
    [visitera.middleware :as middleware]
    [ring.util.response]
    [ring.util.http-response :as response]
-   [visitera.db.core :refer [conn find-user add-user find-country get-countries]]
+   [visitera.db.core :refer [conn find-user add-user find-country-by-alpha-3 get-countries]]
    [visitera.validation :refer [validate-register validate-login]]
    [datomic.api :as d]
    [buddy.hashers :as hs]))
@@ -75,8 +75,8 @@
          :middleware [middleware/wrap-restricted]}]
    ["/db-test" {:get (fn [_]
                        (let [db (d/db conn)
-                             country (find-country db "China")]
-                         (-> (response/ok (:country/alpha-3 country))
+                             country (find-country-by-alpha-3 db "CHN")]
+                         (-> (response/ok (:country/name country))
                              (response/header "Content-Type" "text/plain; charset=utf-8"))))}]
    ["/docs" {:get (fn [_]
                     (-> (response/ok (-> "docs/docs.md" io/resource slurp))

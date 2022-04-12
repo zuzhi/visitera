@@ -18,7 +18,7 @@
 
 (defn install-schema
   [conn]
-  (for [resource db-resources]
+  (doseq [resource db-resources]
     (let [norms-map (c/read-resource resource)]
       (c/ensure-conforms conn norms-map (keys norms-map)))))
 
@@ -79,6 +79,11 @@
   "Find country by name"
   [db name]
   (d/touch (find-one-by db :country/name name)))
+
+(defn find-country-by-alpha-3
+  "Find country by name"
+  [db alpha-3]
+  (d/touch (find-one-by db :country/alpha-3 alpha-3)))
 
 (defn delete-database
   []

@@ -5,7 +5,8 @@
    [mount.core :refer [defstate]]
    [visitera.config :refer [env]]
    [clojure.string :as str]
-   [buddy.hashers :as hs]))
+   [buddy.hashers :as hs]
+   [clojure.core.match :refer [match]]))
 
 (defstate conn
   :start (do (-> env :database-url d/create-database) (-> env :database-url d/connect))
@@ -81,7 +82,7 @@
   (d/touch (find-one-by db :country/name name)))
 
 (defn find-country-by-alpha-3
-  "Find country by name"
+  "Find country by alpha-3"
   [db alpha-3]
   (d/touch (find-one-by db :country/alpha-3 alpha-3)))
 
@@ -95,29 +96,31 @@
       (d/touch)
       (:db/id)))
 
+(defn get-country-id-by-alpha-2
+  "Get country by alpha-2"
+  [db alpha-2]
+  (-> (find-one-by db :country/alpha-2 alpha-2)
+      (d/touch)
+      (:db/id)))
+
 (defn concat-keyword [part-1 part-2]
   (let [name-1 (str/replace part-1 #"^:" "")
         name-2 (name part-2)]
     (-> (str name-1 name-2)
         (keyword))))
 
-(defn remove-from-countries
-  "Remove country from list"
-  [type conn user-email alpha-3]
+(defn remove-from-countries [conn user-email alpha-2]
+  "Remove country from all lists"
   (let [user-id (-> (find-user (d/db conn) user-email)
                     (:db/id))
-        country-id (get-country-id-by-alpha-3 (d/db conn) alpha-3)
-        attr (concat-keyword :user/countries- type)]
-    @(d/transact conn [[:db/retract user-id attr country-id]])))
+        country-id (get-country-id-by-alpha-2 (d/db conn) alpha-2)]
+    @(d/transact conn [[:db/retract user-id :user/countries-visited country-id]
+                       [:db/retract user-id :user/countries-to-visit country-id]])))
 
-(defn add-to-countries
-  "Add country to visited list"
-  [type conn user-email alpha-3]
-  (when-let [country-id (get-country-id-by-alpha-3 (d/db conn) alpha-3)]
-    (case type
-      :visited  (remove-from-countries :to-visit conn user-email alpha-3)
-      :to-visit (remove-from-countries :visited  conn user-email alpha-3))
-    (let [attr (concat-keyword :user/countries- type)
+(defn add-to-countries [conn user-email type alpha-2]
+  "Add country to :visited or :to-visit list"
+  (when-let [country-id (get-country-id-by-alpha-2 (d/db conn) alpha-2)]
+    (let [attr    (concat-keyword :user/countries- type)
           tx-user {:user/email user-email
                    attr        [country-id]}]
       @(d/transact conn [tx-user]))))
@@ -139,14 +142,10 @@
            db user-email)
       (format-countries)))
 
-;;(add-user conn {:user/email    "test@user.com"
-;;                :user/password "somepass"})
-;;
-;;(find-user (d/db conn) "test@user.com")
-;;
-;;(:country/alpha-3 (find-country (d/db conn) "China"))
-
-;;(add-to-countries :visited conn "test@user.com" "BLR")
-;;(get-countries (d/db conn) "test@user.com")
-;;(add-to-countries :to-visit conn "test@user.com" "BLR")
-;;(get-countries (d/db conn) "test@user.com")
+(defn update-countries [conn user-email status alpha-2]
+  "Update countries lists"
+  (match status
+    (:or :to-visit :visited) (do
+                               (remove-from-countries conn user-email alpha-2)
+                               (add-to-countries conn user-email status alpha-2))
+    :not-visited (remove-from-countries conn user-email alpha-2)))

@@ -7,8 +7,7 @@
     [visitera.middleware.formats :as formats]
     [muuntaja.middleware :refer [wrap-format wrap-params]]
     [visitera.config :refer [env]]
-    [ring.middleware.flash :refer [wrap-flash]]
-    [ring.adapter.undertow.middleware.session :refer [wrap-session]]
+    [ring-ttl-session.core :refer [ttl-memory-store]]
     [ring.middleware.defaults :refer [site-defaults wrap-defaults]]
     [buddy.auth.middleware :refer [wrap-authentication wrap-authorization]]
             [buddy.auth.accessrules :refer [restrict]]
@@ -56,13 +55,13 @@
         (wrap-authentication backend)
         (wrap-authorization backend))))
 
+(def ^:private three-days (* 60 60 24 3))
+
 (defn wrap-base [handler]
   (-> ((:middleware defaults) handler)
       wrap-auth
-      wrap-flash
-      (wrap-session {:cookie-attrs {:http-only true}})
       (wrap-defaults
-        (-> site-defaults
-            (assoc-in [:security :anti-forgery] false)
-            (dissoc :session)))
+       (-> site-defaults
+           (assoc-in [:security :anti-forgery] false)
+           (assoc-in  [:session :store] (ttl-memory-store three-days))))
       wrap-internal-error))

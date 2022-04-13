@@ -5,7 +5,7 @@
    [visitera.middleware :as middleware]
    [ring.util.response]
    [ring.util.http-response :as response]
-   [visitera.db.core :refer [conn find-user add-user find-country-by-alpha-3 get-countries]]
+   [visitera.db.core :refer [conn find-user add-user find-country-by-alpha-3 get-countries update-countries]]
    [visitera.validation :refer [validate-register validate-login]]
    [datomic.api :as d]
    [buddy.hashers :as hs]))
@@ -50,7 +50,7 @@
                            :email (:email params)}))
         (and user
              (password-valid? user (:password params)))
-        (let [updated-session (assoc session :identity (keyword (:email params)))]
+        (let [updated-session (assoc session :identity (:email params))]
           (-> (response/found "/")
               (assoc :session updated-session)))))))
 
@@ -66,6 +66,17 @@
   (let [email (:identity session)]
     (-> (response/ok (pr-str (get-countries (d/db conn) email)))
         (response/header "Content-Type" "application/edn"))))
+
+(defn put-user-countries-handler [{:keys [params session]}]
+  (let [email (:identity session)
+        status (:status params)
+        country (:id params)]
+    (try
+      (update-countries conn email status country)
+      (-> (response/ok (pr-str (get-countries (d/db conn) email)))
+          (response/header "Content-Type" "application/edn"))
+      (catch Exception e (response/bad-request
+                          (str "Error: " (.getMessage e)))))))
 
 (defn home-routes []
   [""
@@ -89,4 +100,5 @@
    ["/api"
     {:middleware [middleware/wrap-restricted]}
     ["/user-countries"
-     ["" {:get get-user-countries-handler}]]]])
+     ["" {:get get-user-countries-handler
+          :put put-user-countries-handler}]]]])

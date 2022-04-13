@@ -45,7 +45,8 @@
                  [ring/ring-defaults "0.3.3"]
                  [selmer "1.12.44"]
                  [thheller/shadow-cljs "2.16.5" :scope "provided"]
-                 [org.webjars/font-awesome "5.15.4"]]
+                 [org.webjars/font-awesome "5.15.4"]
+                 [org.clojure/core.match "0.3.0"]]
 
   :min-lein-version "2.0.0"
   

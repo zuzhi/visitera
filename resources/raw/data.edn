@@ -82,8 +82,7 @@
   :alpha-2 "AI",
   :region "Americas",
   :alpha-3 "AIA",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:AI",
   :region-code "019"}
@@ -105,8 +104,7 @@
   :alpha-2 "AG",
   :region "Americas",
   :alpha-3 "ATG",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:AG",
   :region-code "019"}
@@ -117,8 +115,7 @@
   :alpha-2 "AR",
   :region "Americas",
   :alpha-3 "ARG",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:AR",
   :region-code "019"}
@@ -140,8 +137,7 @@
   :alpha-2 "AW",
   :region "Americas",
   :alpha-3 "ABW",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:AW",
   :region-code "019"}
@@ -185,8 +181,7 @@
   :alpha-2 "BS",
   :region "Americas",
   :alpha-3 "BHS",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:BS",
   :region-code "019"}
@@ -219,8 +214,7 @@
   :alpha-2 "BB",
   :region "Americas",
   :alpha-3 "BRB",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:BB",
   :region-code "019"}
@@ -253,8 +247,7 @@
   :alpha-2 "BZ",
   :region "Americas",
   :alpha-3 "BLZ",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:BZ",
   :region-code "019"}
@@ -298,8 +291,7 @@
   :alpha-2 "BO",
   :region "Americas",
   :alpha-3 "BOL",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:BO",
   :region-code "019"}
@@ -310,8 +302,7 @@
   :alpha-2 "BQ",
   :region "Americas",
   :alpha-3 "BES",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:BQ",
   :region-code "019"}
@@ -344,8 +335,7 @@
   :alpha-2 "BV",
   :region "Americas",
   :alpha-3 "BVT",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:BV",
   :region-code "019"}
@@ -356,8 +346,7 @@
   :alpha-2 "BR",
   :region "Americas",
   :alpha-3 "BRA",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:BR",
   :region-code "019"}
@@ -467,8 +456,7 @@
   :alpha-2 "KY",
   :region "Americas",
   :alpha-3 "CYM",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:KY",
   :region-code "019"}
@@ -501,8 +489,7 @@
   :alpha-2 "CL",
   :region "Americas",
   :alpha-3 "CHL",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:CL",
   :region-code "019"}
@@ -546,8 +533,7 @@
   :alpha-2 "CO",
   :region "Americas",
   :alpha-3 "COL",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:CO",
   :region-code "019"}
@@ -602,8 +588,7 @@
   :alpha-2 "CR",
   :region "Americas",
   :alpha-3 "CRI",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:CR",
   :region-code "019"}
@@ -636,8 +621,7 @@
   :alpha-2 "CU",
   :region "Americas",
   :alpha-3 "CUB",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:CU",
   :region-code "019"}
@@ -648,8 +632,7 @@
   :alpha-2 "CW",
   :region "Americas",
   :alpha-3 "CUW",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:CW",
   :region-code "019"}
@@ -704,8 +687,7 @@
   :alpha-2 "DM",
   :region "Americas",
   :alpha-3 "DMA",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:DM",
   :region-code "019"}
@@ -716,8 +698,7 @@
   :alpha-2 "DO",
   :region "Americas",
   :alpha-3 "DOM",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:DO",
   :region-code "019"}
@@ -728,8 +709,7 @@
   :alpha-2 "EC",
   :region "Americas",
   :alpha-3 "ECU",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:EC",
   :region-code "019"}
@@ -751,8 +731,7 @@
   :alpha-2 "SV",
   :region "Americas",
   :alpha-3 "SLV",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:SV",
   :region-code "019"}
@@ -818,8 +797,7 @@
   :alpha-2 "FK",
   :region "Americas",
   :alpha-3 "FLK",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:FK",
   :region-code "019"}
@@ -874,8 +852,7 @@
   :alpha-2 "GF",
   :region "Americas",
   :alpha-3 "GUF",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:GF",
   :region-code "019"}
@@ -996,8 +973,7 @@
   :alpha-2 "GD",
   :region "Americas",
   :alpha-3 "GRD",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:GD",
   :region-code "019"}
@@ -1008,8 +984,7 @@
   :alpha-2 "GP",
   :region "Americas",
   :alpha-3 "GLP",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:GP",
   :region-code "019"}
@@ -1031,8 +1006,7 @@
   :alpha-2 "GT",
   :region "Americas",
   :alpha-3 "GTM",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:GT",
   :region-code "019"}
@@ -1076,8 +1050,7 @@
   :alpha-2 "GY",
   :region "Americas",
   :alpha-3 "GUY",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:GY",
   :region-code "019"}
@@ -1088,8 +1061,7 @@
   :alpha-2 "HT",
   :region "Americas",
   :alpha-3 "HTI",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:HT",
   :region-code "019"}
@@ -1122,8 +1094,7 @@
   :alpha-2 "HN",
   :region "Americas",
   :alpha-3 "HND",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:HN",
   :region-code "019"}
@@ -1255,8 +1226,7 @@
   :alpha-2 "JM",
   :region "Americas",
   :alpha-3 "JAM",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:JM",
   :region-code "019"}
@@ -1328,8 +1298,7 @@
   :region-code "009"}
  {:intermediate-region-code "",
   :intermediate-region "",
-  :name
-  "Korea (Democratic People's Republic of)",
+  :name "Korea (Democratic People's Republic of)",
   :country-code "408",
   :alpha-2 "KP",
   :region "Asia",
@@ -1565,8 +1534,7 @@
   :alpha-2 "MQ",
   :region "Americas",
   :alpha-3 "MTQ",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:MQ",
   :region-code "019"}
@@ -1610,8 +1578,7 @@
   :alpha-2 "MX",
   :region "Americas",
   :alpha-3 "MEX",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:MX",
   :region-code "019"}
@@ -1677,8 +1644,7 @@
   :alpha-2 "MS",
   :region "Americas",
   :alpha-3 "MSR",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:MS",
   :region-code "019"}
@@ -1788,8 +1754,7 @@
   :alpha-2 "NI",
   :region "Americas",
   :alpha-3 "NIC",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:NI",
   :region-code "019"}
@@ -1921,8 +1886,7 @@
   :alpha-2 "PA",
   :region "Americas",
   :alpha-3 "PAN",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:PA",
   :region-code "019"}
@@ -1944,8 +1908,7 @@
   :alpha-2 "PY",
   :region "Americas",
   :alpha-3 "PRY",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:PY",
   :region-code "019"}
@@ -1956,8 +1919,7 @@
   :alpha-2 "PE",
   :region "Americas",
   :alpha-3 "PER",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:PE",
   :region-code "019"}
@@ -2012,8 +1974,7 @@
   :alpha-2 "PR",
   :region "Americas",
   :alpha-3 "PRI",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:PR",
   :region-code "019"}
@@ -2079,15 +2040,13 @@
   :alpha-2 "BL",
   :region "Americas",
   :alpha-3 "BLM",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:BL",
   :region-code "019"}
  {:intermediate-region-code "011",
   :intermediate-region "Western Africa",
-  :name
-  "Saint Helena, Ascension and Tristan da Cunha",
+  :name "Saint Helena, Ascension and Tristan da Cunha",
   :country-code "654",
   :alpha-2 "SH",
   :region "Africa",
@@ -2103,8 +2062,7 @@
   :alpha-2 "KN",
   :region "Americas",
   :alpha-3 "KNA",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:KN",
   :region-code "019"}
@@ -2115,8 +2073,7 @@
   :alpha-2 "LC",
   :region "Americas",
   :alpha-3 "LCA",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:LC",
   :region-code "019"}
@@ -2127,8 +2084,7 @@
   :alpha-2 "MF",
   :region "Americas",
   :alpha-3 "MAF",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:MF",
   :region-code "019"}
@@ -2150,8 +2106,7 @@
   :alpha-2 "VC",
   :region "Americas",
   :alpha-3 "VCT",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:VC",
   :region-code "019"}
@@ -2261,8 +2216,7 @@
   :alpha-2 "SX",
   :region "Americas",
   :alpha-3 "SXM",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:SX",
   :region-code "019"}
@@ -2323,14 +2277,12 @@
   :region-code "002"}
  {:intermediate-region-code "005",
   :intermediate-region "South America",
-  :name
-  "South Georgia and the South Sandwich Islands",
+  :name "South Georgia and the South Sandwich Islands",
   :country-code "239",
   :alpha-2 "GS",
   :region "Americas",
   :alpha-3 "SGS",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:GS",
   :region-code "019"}
@@ -2385,8 +2337,7 @@
   :alpha-2 "SR",
   :region "Americas",
   :alpha-3 "SUR",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:SR",
   :region-code "019"}
@@ -2529,8 +2480,7 @@
   :alpha-2 "TT",
   :region "Americas",
   :alpha-3 "TTO",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:TT",
   :region-code "019"}
@@ -2574,8 +2524,7 @@
   :alpha-2 "TC",
   :region "Americas",
   :alpha-3 "TCA",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:TC",
   :region-code "019"}
@@ -2625,8 +2574,7 @@
   :region-code "142"}
  {:intermediate-region-code "",
   :intermediate-region "",
-  :name
-  "United Kingdom of Great Britain and Northern Ireland",
+  :name "United Kingdom of Great Britain and Northern Ireland",
   :country-code "826",
   :alpha-2 "GB",
   :region "Europe",
@@ -2664,8 +2612,7 @@
   :alpha-2 "UY",
   :region "Americas",
   :alpha-3 "URY",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:UY",
   :region-code "019"}
@@ -2698,8 +2645,7 @@
   :alpha-2 "VE",
   :region "Americas",
   :alpha-3 "VEN",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:VE",
   :region-code "019"}
@@ -2721,8 +2667,7 @@
   :alpha-2 "VG",
   :region "Americas",
   :alpha-3 "VGB",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:VG",
   :region-code "019"}
@@ -2733,8 +2678,7 @@
   :alpha-2 "VI",
   :region "Americas",
   :alpha-3 "VIR",
-  :sub-region
-  "Latin America and the Caribbean",
+  :sub-region "Latin America and the Caribbean",
   :sub-region-code "419",
   :iso_3166-2 "ISO 3166-2:VI",
   :region-code "019"}

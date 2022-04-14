@@ -1,9 +1,14 @@
+(ns transform-data
+  (:require
+   [clojure.set :as set]))
+
 (defn get-raw-data [] (->
                        (slurp "./resources/raw/data.edn")
                        (read-string)
                        (eval)))
 
-(def keys [:name :country-code :alpha-2 :alpha-3])
+(def old-keys [:name :country-code :alpha-2 :alpha-3])
+
 (def new-keys {:name         :country/name
                :country-code :country/code
                :alpha-2      :country/alpha-2
@@ -11,8 +16,8 @@
 
 (defn transform [country]
   (-> country
-      (select-keys keys)
-      (clojure.set/rename-keys new-keys)))
+      (select-keys old-keys)
+      (set/rename-keys new-keys)))
 
 (defn wrap-with-template [data]
   (str {:visitera/data1 {:txes [(vec data)]}}))
@@ -25,4 +30,5 @@
            (map transform)
            (wrap-with-template)))))
 
-(save-parsed)
+(defn -main [& args]
+  (save-parsed))

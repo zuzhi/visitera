@@ -46,7 +46,8 @@
                  [selmer "1.12.44"]
                  [thheller/shadow-cljs "2.16.5" :scope "provided"]
                  [org.webjars/font-awesome "5.15.4"]
-                 [org.clojure/core.match "0.3.0"]]
+                 [org.clojure/core.match "0.3.0"]
+                 [com.datomic/client-pro "1.0.75"]]
 
   :min-lein-version "2.0.0"
   
